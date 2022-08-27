@@ -104,7 +104,6 @@ a:after, a:before
 {
     scroll-behavior: smooth;
 }
-
 .navbar .navbar-nav .nav-item
 {
     position: relative;
@@ -126,15 +125,19 @@ a:after, a:before
 {
     width: 100%;
 }
-@media screen and (min-width: 900px) {
-    .navbar{
+@media screen and (min-width: 992px) {
+    .navbar
+    {
         padding:0;
     }
     .navbar .navbar-nav .nav-link
-    {padding: 1em 0;}
+    {
+        padding: 1em 0;
+    }
     .navbar .navbar-nav .nav-item
     {
-        margin: 0 1em;}
+        margin: 0 1em;
+    }
 }
 #strucni_tela .divider
 {
