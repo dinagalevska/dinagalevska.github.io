@@ -126,7 +126,7 @@ a:after, a:before
 {
     width: 100%;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 900px) {
     .navbar{
         padding:0;
     }
